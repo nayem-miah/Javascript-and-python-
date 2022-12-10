@@ -202,12 +202,9 @@
 
 
 // var a = 'a'
-// var b = 'A'
+// var b = 'c'
 
 // console.log(b > a)
-
-
-
 
 
 
@@ -228,7 +225,7 @@
 // console.log(a.endsWith('Islam'))
 
 
-// // concat is used to add string
+// // concat is used to add string at the end
 // console.log(a.concat('24'))
 
 

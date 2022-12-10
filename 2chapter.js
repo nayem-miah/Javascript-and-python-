@@ -11,7 +11,7 @@
 
 // console.log(Math.E)
 // console.log(Math.PI)
-// var n = 4.189
+var n = 4.189
 
 // console.log(Math.abs(n)) //4.189  absolute number
 // console.log(Math.floor(n)) //4  which is after . wil not show
@@ -20,15 +20,15 @@
 
 
 
-// // console.log(Math.max(144, 599, 45)) // it will return the max number
-// // console.log(Math.min(144, 599, 45)) // it will return the min number
-// // console.log(Math.pow(3, 3)) // it will return the power 
+// console.log(Math.max(144, 599, 45,564)) // it will return the max number
+// console.log(Math.min(144, 599, 45)) // it will return the min number
+// console.log(Math.pow(3, 3)) // it will return the power 
 // console.log(Math.random()) // it will return a random number
 
 
 // //----------------------------2 Date---------------
 
-// var date = new Date()
+var date = new Date()
 
 // console.log(date) //return date and time 
 // console.log(date.toDateString()) // return date time and day name
@@ -40,8 +40,7 @@
 // console.log(date.getMinutes()) // only minutes
 // console.log(date.getSeconds()) // only seconds
 
-// console.log(new Date().getFullYear())
-// // here new Date() is an object and getFullYear() is a method under new Date object
+// here new Date() is an object and getFullYear() is a method under new Date object
 
 
 // //--------------------------3 If, else if, else conditions---------------
@@ -64,6 +63,16 @@
 
 
 //------------------------------4 switch statement------------------------
+
+// //The switch expression is evaluated once.
+// //The value of the expression is compared with the values of each case.
+// //If there is a match, the associated block of code is executed.
+// //If there is no match, the default code block is executed.
+// // It is up to the user if they would like to use if else or switch as they both serve the same purpose.
+// //Both if-else and switch have their own set of advantages over one another.
+// //It is ideal to use if else when checking if a condition is true or false.
+// //It is ideal to use a switch instead of using nested if-else statements as
+// // it is faster due to the creation of a jump table.
 
 
 // var date = new Date()
@@ -98,6 +107,8 @@
 //     default: console.log('Not a valid number')
 
 // }
+
+
 
 
 // --------------------- 5 logical oparator------------------------

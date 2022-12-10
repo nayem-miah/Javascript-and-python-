@@ -9,7 +9,7 @@
 //--------------------- 1  arrey and some method------------------------------
 
 
-// var arr = [1,3,4,7,9]
+var arr = [1,3,4,7,9]
 // arr[5] = 56  // to entry new element or modify the previus element
 // arr.push[8]  // to add a element at the end
 // arr.unshift[69]  // to add a element at first
@@ -58,6 +58,22 @@
 
 // }
 
+// var found = false
+// var arr = [23,53,43,64,234,645]
+// var finding = 53
+
+// for(var i=0; i<arr.length; i+=1 ){
+//     if (arr[i]==finding){
+//         console.log('Finally we got ther finding number...'+arr[i])
+//         found = true
+//     }
+// }
+// if (!found){
+//     console.log('Not found')
+// }
+
+
+
 // if (!isFound){
 //    console.log('No Data Found')
 // }
@@ -77,6 +93,7 @@
 // // console.log(arr[1][1])
 
 // for (var i = 0; i < arr.length; i++){
+  
 //      for (var j = 0; j< arr[i].length; j++){
         
 //           console.log(arr[i][j])
@@ -86,12 +103,27 @@
 
 
 
+// var arr = [
+//     [9,4,65,65,],
+//     [34,54,34,4],
+//     [23,43,54,67]
+// ]
+
+// for(var i=0; i<arr.length; i++){
+
+//     for(var j=0; j<arr[i].length; j++){
+//         console.log(arr[i][j])
+//     }
+
+// }
+
+
 //--------------------- 5 arrey method ------------------------------
 
 
 // var arr = [3,7,4,2,9,78]
 
-// console.log(arr.join(' ')) // to print the arrey perfectly
-// console.log(arr.fill('2')) // to fill  the whole arrey with 2
+// console.log(arr) // to print the arrey without any breaket
+// console.log(arr.fill('3')) // to fill  the whole arrey with 2
 // console.log(Array.isArray(arr)) // to check is it arrey or not
 // Array.from(arr)  // to create a new arrey like the existing arrey
