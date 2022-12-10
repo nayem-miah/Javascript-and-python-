@@ -123,8 +123,8 @@
 //  ==   !=   >    <  >=   <=   ===  !== 
 
 
-a = 20
-b = 25
+// a = 20
+// b = 25
 
 // console.log(a == b)  // false
 // console.log(a !== b)  // true
