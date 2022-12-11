@@ -9,7 +9,7 @@
 //--------------------- 1  arrey and some method------------------------------
 
 
-var arr = [1,3,4,7,9]
+// var arr = [1,3,4,7,9]
 // arr[5] = 56  // to entry new element or modify the previus element
 // arr.push[8]  // to add a element at the end
 // arr.unshift[69]  // to add a element at first
