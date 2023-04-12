@@ -73,6 +73,16 @@
 
 
 
+#------------------------------list comprehension------------------------------
+
+x = 5
+y = 5
+
+data = [[a,k] for a in range(x) for k in range(y) if a == 4]
+# here x is first loop and y is second one
+# at first loop works when a = 4 then code execute 
+print(data)
+
 
 
   
