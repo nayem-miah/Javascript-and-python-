@@ -75,14 +75,28 @@
 
 #------------------------------list comprehension------------------------------
 
-x = 5
-y = 5
+# x = 5
+# y = 5
 
-data = [[a,k] for a in range(x) for k in range(y) if a == 4]
-# here x is first loop and y is second one
-# at first loop works when a = 4 then code execute 
-print(data)
+# data = [[a,k] for a in range(x) for k in range(y) if a == 4]
+# # here x is first loop and y is second one
+# # at first loop works when a = 4 then code execute 
+# print(data)
+
+# #---------------------------lambda function----------------
+# g=lambda i :i *10
+# print(g(6))
+
+# numbers = list(map(lambda i: i*10, [i for i in range(1, 6)]))
+ 
+# print(numbers)
 
 
 
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
   
+ans = [[i,j,k] for i in range(x) for j in range(y) for k in range(z)]
+print(ans)
