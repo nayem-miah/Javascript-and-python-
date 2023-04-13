@@ -93,10 +93,15 @@
 
 
 
-x = int(input())
-y = int(input())
-z = int(input())
-n = int(input())
-  
-ans = [[i,j,k] for i in range(x) for j in range(y) for k in range(z)]
-print(ans)
+list1 = [2,3,6,6,5,8,-2,-666,87]
+lenth = len(list1)
+for i in range(lenth):
+    max_num = i
+    for j in range(i+1,lenth):
+      if list1[j]>list1[max_num]:
+        max_num = j
+    (list1[max_num],list1[i]) = (list1[i],list1[max_num])
+    
+print(list1[max_num])
+print(list1)
+    
