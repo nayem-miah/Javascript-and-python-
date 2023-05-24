@@ -5,11 +5,11 @@ def binary_search(arr,finding,high,low):
     if arr[mid]==finding:
         print("Len is", mid,"result is ",arr[mid])
     elif finding > arr[mid]:
-        binary_search(arr,finding,high,mid+1)
+        binary_search(arr,finding,high,mid)
     elif finding < arr[mid]:
-        binary_search(arr,finding,mid-1,low)
+        binary_search(arr,finding,mid,low)
 
-arr = [2,4,6,89,234,566,788]
-finding = 788
+arr = [2,4,6,89,234,566,788,6666]
+finding = 566
 
-binary_search(arr,finding, len(arr)-1,0)
+binary_search(arr,finding, len(arr),0)
