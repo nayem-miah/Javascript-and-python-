@@ -17,11 +17,11 @@
 
 // var arr = [2,5,36,77,54]
 
-// var max = arr.reduce(function(prev, curr){
+// var m = arr.reduce(function(prev, curr){
 //        return Math.max(prev, curr)
 // })
 
-// console.log(max)
+// console.log(m)
 
 
 

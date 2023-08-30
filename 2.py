@@ -1,3 +1,13 @@
+# # we covered here
+
+# 1/If, elif, else condition
+# 2/logical oparator
+# 3/Python Identity Operators
+# 4/python  tuple, dictionary, list, arrey
+# 5/list comprehension
+# 6/lambda function
+
+
 # ---------------If, elif, else condition---------------------------------
 
 
@@ -93,16 +103,16 @@
 
 
 
-list1 = [2,3,6,6,5,8,-2,-666,87]
+list1 = [2,3,6,6,5,8,-2,87]
 lenth = len(list1)
 for i in range(lenth):
-    max_num = i
+    min_num = i
     for j in range(i+1,lenth):
-      if list1[j]>list1[max_num]:
-        max_num = j
-    (list1[max_num],list1[i]) = (list1[i],list1[max_num])
+      if list1[j]>list1[min_num]:
+        min_num = j
+    (list1[min_num],list1[i]) = (list1[i],list1[min_num])
     
-print(list1[max_num])
+print(list1[min_num])
 print(list1)
 
 

@@ -11,7 +11,7 @@
 
 // console.log(Math.E)
 // console.log(Math.PI)
-var n = 4.189
+// var n = 4.189
 
 // console.log(Math.abs(n)) //4.189  absolute number
 // console.log(Math.floor(n)) //4  which is after . wil not show
@@ -28,7 +28,7 @@ var n = 4.189
 
 // //----------------------------2 Date---------------
 
-var date = new Date()
+// var date = new Date()
 
 // console.log(date) //return date and time 
 // console.log(date.toDateString()) // return date time and day name

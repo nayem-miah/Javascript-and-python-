@@ -131,6 +131,7 @@
 //---------------------------------- 3 call method-------------------------
 
 
+
 // function test(c,d){
     
 //     console.log(this.a + this.b)
@@ -185,7 +186,7 @@
 
 // test.bind({a:7, b: 3}, 30, 50) 
 // // bind method will bind but not call.
-// // if u want to call store the bind method in a varible and call the varible like giveb below
+// // if u want to call store the bind method in a varible and call the varible like given below
 // var bindCall = test.bind({a:7, b:3}, 30,50)
 // bindCall()
 

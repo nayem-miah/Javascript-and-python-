@@ -1,3 +1,9 @@
+// 1 function
+// 2 function return statment
+// 3 inner function or nested function
+
+
+
 
 //---------------------function--------------------------------------
 

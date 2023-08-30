@@ -1,3 +1,9 @@
+// 1 functional programming
+// 2 pure functional
+// 3 higher order functions
+// 4 higher order functions
+// 5 functions callback
+
 //-----------------functional programming-----------------
 
 //there are three terms in functional program

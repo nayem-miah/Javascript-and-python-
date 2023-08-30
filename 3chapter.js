@@ -1,12 +1,14 @@
-// chap 1 = arrey and some method
-// chap 2 = arrey traversing
-// chap 3 = arrey searching
-// chap 4 = multi dimentional arrey
-// chap 5 = arrey method
+
+// we covered here
+// 1 arrey and some method
+// 2 arrey traversing
+// 3 arrey searching
+// 4 multi dimentional arrey
+// 5 arrey method
 
 
 
-//--------------------- 1  arrey and some method------------------------------
+//--------------------- 1 arrey and some method------------------------------
 
 
 // var arr = [1,3,4,7,9]
