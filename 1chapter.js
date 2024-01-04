@@ -143,8 +143,6 @@
 
 
 
-
-
 // ---------------------------   8 ternary oparator  ----------------------
 
 // ternary structure  =  condition ? true side : false side

@@ -20,22 +20,41 @@
 
 // // ==================== background change ==========================
 
-let color = ['red','blue','green', 'yellow', 'orange', 'tomato','white']
-let i = 0
-let btn = document.getElementById('click-me')
-btn.addEventListener('click', function(){
-    let text = document.getElementById('color')
+// let color = ['red','blue','green', 'yellow', 'orange', 'tomato','white']
+// let i = 0
+// let btn = document.getElementById('click-me')
+// btn.addEventListener('click', function(){
+//     let text = document.getElementById('color')
     
-    text.style.background = color[i]
-    text.innerHTML = color[i]
-    if (i >= color.length){
-        i = 0;
-    } else{
+//     text.style.background = color[i]
+//     text.innerHTML = color[i]
+//     if (i >= color.length){
+//         i = 0;
+//     } else{
+//         i++
+//     }
+
+// })
+
+
+
+let ColorOb = ['tomato', 'white','blue','green','yellow']
+let i = 0
+let colorBtn = document.querySelector('#click-me')
+let colorText = document.querySelector('#color')
+
+
+colorBtn.addEventListener('click',function(){
+
+    colorText.style.background = ColorOb[i]
+
+    if (i >= ColorOb.length) {
+         i = 0;
+    }else{
         i++
     }
 
 })
-
 
 
 
@@ -78,22 +97,36 @@ btn.addEventListener('click', function(){
 
 
 
-// // ================= show hidden with event listeener ==================
-let bt = document.querySelector('#click-btn')
-let text = document.querySelector('#text')
-isShow = false
-bt.addEventListener('click', function(){
-     if (isShow){
-         text.style.visibility = 'hidden'
-         isShow = false
+// // // ================= show hidden with event listeener ==================
+// let bt = document.querySelector('#click-btn')
+// let text = document.querySelector('#text')
+// isShow = true
+// bt.addEventListener('click', function(){
+//      if (isShow){
+//          text.style.visibility = 'visible'
+//          isShow = false
 
-     }else{
+//      }else{
+//         text.style.visibility = 'hidden'
+//         isShow = true
+
+//      }
+// })
+
+
+const bt = document.querySelector('#click-btn')
+const text = document.querySelector('#text')
+isShow = true
+
+bt.addEventListener('click', function (){
+    if (isShow){
         text.style.visibility = 'visible'
+        isShow = false
+    }else{
+        text.style.visibility = 'hidden'
         isShow = true
-
-     }
+    }
 })
-
 
 
 
@@ -121,8 +154,8 @@ bt.addEventListener('click', function(){
 
 // // ========================= input data ===============================
 let ulId = document.querySelector('#ul-id')
-let nameField = document.querySelector('#name-field')
-nameField.addEventListener('keypress', function(event){
+let inputField = document.querySelector('#name-field')
+inputField.addEventListener('keypress', function(event){
     if (event.keyCode === 13){
         let name = event.target.value // to have tha data we entered
         let li = document.createElement('li')
@@ -132,3 +165,14 @@ nameField.addEventListener('keypress', function(event){
         event.target.value = ''
     }
 })
+
+
+
+let nameField = document.querySelector('#nameField')
+let ul = document.querySelector('#ulId')
+
+
+
+nameField.addEventListener('keyPress', function (event) {
+    
+}

@@ -11,7 +11,7 @@
 
 // console.log(Math.E)
 // console.log(Math.PI)
-// var n = 4.189
+var n = 4.189
 
 // console.log(Math.abs(n)) //4.189  absolute number
 // console.log(Math.floor(n)) //4  which is after . wil not show
@@ -65,7 +65,7 @@
 //------------------------------4 switch statement------------------------
 
 // //The switch expression is evaluated once.
-// //The value of the expression is compared with the values of each case.
+// //The value of the expression is compared to the values of each case.
 // //If there is a match, the associated block of code is executed.
 // //If there is no match, the default code block is executed.
 // // It is up to the user if they would like to use if else or switch as they both serve the same purpose.
@@ -73,6 +73,32 @@
 // //It is ideal to use if else when checking if a condition is true or false.
 // //It is ideal to use a switch instead of using nested if-else statements as
 // // it is faster due to the creation of a jump table.
+
+
+
+// let color = 'blue';
+// let colorType;
+
+// switch (color) {
+//   case 'red':
+//     colorType = 'Primary color';
+//     break;
+//   case 'blue':
+//   case 'green':
+//   case 'yellow':
+//     colorType = 'Secondary color';
+//     break;
+//   case 'black':
+//   case 'white':
+//     colorType = 'Neutral color';
+//     break;
+//   default:
+//     colorType = 'Unknown color';
+// }
+
+// console.log(`The color ${color} is a ${colorType}.`);
+
+
 
 
 // var date = new Date()
