@@ -34,30 +34,24 @@
 
 
 //---------------------higher order functions----------------
-// if function is used as argoment its called high order function
-
-// function add(a,b){
-//     return a+b
-// }
 
 
-// function manipulate(a,b,func){
-//    var c = a+b
-//    var d = a-b
-
-//    function multiply(){
-//      var m = func (a,b)
-//      return c*d*m
-//    }
-
-//    return multiply
-
-// }
-
-// var multi = manipulate(3, 4, add)
-// console.log(multi())
-
-
+// // Higher-order function that takes a function as an argument
+// function higherOrderFunction(func, value) {
+//     return func(value);
+//   }
+  
+//   // Function to be passed as an argument to the higher-order function
+// function square(x) {
+//     return x * x;
+//   }
+  
+//   // Passing 'square' function as an argument to the higher-order function
+//   const result = higherOrderFunction(square, 5);
+//   console.log(result); // Output: 25
+  
+  
+  
 //--------------------- functions callback ----------------
 
 

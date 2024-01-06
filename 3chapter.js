@@ -85,12 +85,12 @@
 //--------------------- 4 multi dimentional arrey------------------------------
 
 
-// var arr = [
-//      [78, 69, 90,57],
-//      [75, 66, 90,58],
-//      [88, 69, 93,47]
+var arr = [
+     [78, 69, 90,57],
+     [75, 66, 90,58],
+     [88, 69, 93,47]
 
-// ]
+]
 
 // // console.log(arr[1][1])
 
@@ -123,7 +123,6 @@
 //--------------------- 5 arrey method ------------------------------
 
 
-// var arr = [3,7,4,2,9,78]
 
 // console.log(arr) // to print the arrey without any breaket
 // console.log(arr.fill('3')) // to fill  the whole arrey with 2

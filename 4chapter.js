@@ -5,7 +5,7 @@
 
 
 //--------------------- 1 object in js ------------------------------
-// there are three way to assign a object
+// there are three way to assign an object
 // we say object in JS but in Python we say Dictionary
 
 
@@ -65,15 +65,15 @@
 //--------------------  2 compare between 2 objects ----------------
 
 
-// var obj = {
-//     a: 10,
-//     b: 20
-// }
+var obj = {
+    a: 10,
+    b: 20
+}
 
-// var obj2 = {
-//     a : 10,
-//     b : 20
-// }
+var obj2 = {
+    a : 10,
+    b : 20
+}
 
 
 // console.log(obj === obj2)  // it won't work 
