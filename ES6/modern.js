@@ -1,3 +1,11 @@
+// Here we learn
+// forEach
+//ternary operator
+
+
+
+// //--------------use of this and forEach-----------------------
+
 // var javascript =  {
 //     name: 'javascript',
 //     libraries: ['React', 'Angular', 'vue','React native'],
@@ -29,19 +37,6 @@
 
 
 
-// const searchInput = document.querySelector('.input')
-// const prints = document.querySelector('.print')
-
-
-// printFunction = function(){
-
-//     prints.innerHTML = this.value
-// }
-
-// searchInput.addEventListener('keyup', printFunction);
-
-
-
 
 // //-----------------------ternary operator-------------------
 
@@ -61,6 +56,7 @@
 
 
 // let norul= {
+    
 //     son1:"Nayem",
 //     son2:"Ayesha",
 //     son3:"Amena",
@@ -128,25 +124,26 @@
 //     }
 // }
 
-// let { name: names} = user2 // we can define a new name like names here
+// let { name: nameu} = user2 // we can define a new name like names here
 
-// console.log(names)
+// console.log(nameu)
 
-
-
-// //-------------------------bringing nested objects ----------------
+// // //-------------------------bringing nested objects ----------------
 
 // let {spring: {seOne: x}} = user2 // we also can bring nested objects
 
 // console.log(x)
 
 
+
+
+
 // //--------------------------- arrey destucturing------------------------------
 
 // let user3 = ['nayem',4,6,7,9]
 
-// // let [a,b]=user3// nayem and 4 in a and b
-// let [,a,,b]=user3 // 4 and 7 in a and b
+// let [a,b]=user3// nayem and 4 in a and b
+// // let [,a,,b]=user3 // 4 and 7 in a and b
 
 // console.log(a,b)
 
