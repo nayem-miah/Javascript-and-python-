@@ -152,27 +152,27 @@ bt.addEventListener('click', function (){
 
 
 
-// // ========================= input data ===============================
-let ulId = document.querySelector('#ul-id')
-let inputField = document.querySelector('#name-field')
-inputField.addEventListener('keypress', function(event){
-    if (event.keyCode === 13){
-        let name = event.target.value // to have tha data we entered
-        let li = document.createElement('li')
-        li.className = 'list-group-item'
-        li.innerHTML = name
-        ulId.appendChild(li)
-        event.target.value = ''
-    }
-})
+// // // ========================= input data ===============================
+// let ulId = document.querySelector('#ul-id')
+// let inputField = document.querySelector('#name-field')
+// inputField.addEventListener('keypress', function(event){
+//     if (event.keyCode === 13){
+//         let name = event.target.value // to have tha data we entered
+//         let li = document.createElement('li')
+//         li.className = 'list-group-item'
+//         li.innerHTML = name
+//         ulId.appendChild(li)
+//         event.target.value = ''
+//     }
+// })
 
 
 
-let nameField = document.querySelector('#nameField')
-let ul = document.querySelector('#ulId')
+// let nameField = document.querySelector('#nameField')
+// let ul = document.querySelector('#ulId')
 
 
 
-nameField.addEventListener('keyPress', function (event) {
+// nameField.addEventListener('keyPress', function (event) {
     
-}
+// }

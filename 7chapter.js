@@ -1,5 +1,5 @@
-// //--------------------reduce method -----------------------
-// // it can work with two value
+//--------------------reduce method -----------------------
+// it can work with two value
 
 // var arr = [2,5,36,77,54]
 
@@ -8,7 +8,6 @@
 // })
 
 // console.log(sum)
-
 
 
 
@@ -66,6 +65,8 @@
 // var arr1 = [2,-5,-9, -1, 4,9,4,2,6,8,7,1]
 
 // var test = arr1.sort(function(b,c){
+
+ 
                
 //    if (b>c){  // to make perfectly perfect
 
@@ -84,12 +85,12 @@
 
 
 
-//-----------------------every method--------------------
-// it will return booliion value true or false
-// to check all are even or not . or all are positive or not
-// if all value is true it will say true 
+// // -----------------------every method--------------------
+// // it will return booliion value true or false
+// // to check all are even or not . or all are positive or not
+// // if all value is true it will say true 
 
-// checking even or not
+// // checking even or not
 // var arr = [2,5,3,534,6,3,6,8]
 
 // var test = arr.every(function(value){
@@ -111,9 +112,9 @@
 
 
 
-//-------------------------------some method-----------------
-// it will return boolion value
-// if one value is true it will say true
+// //-------------------------------some method-----------------
+// // it will return boolion value
+// // if one value is true it will say true
 
 // var arr = [2,8,3,34,6,10,6,8]
 
@@ -123,8 +124,8 @@
 // console.log(test)
 
 
-//---------------------------recursive function---------
-// it works like loop 
+// // ---------------------------recursive function---------
+// // it works like loop 
 
 // function sayHi(n){
 //      if (n===0){
@@ -138,8 +139,12 @@
 
 
 
-//----------------------------function composition-----------------
-// output of a function acts as input of another's function
+
+
+
+
+// //----------------------------function composition-----------------
+// // output of a function acts as input of another's function
 
 
 

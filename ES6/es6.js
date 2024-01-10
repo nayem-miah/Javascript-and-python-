@@ -51,6 +51,7 @@
 
 
 
+
 //--------------------------------- 2 template string-----------------------
 // // it works like python f"" 
 
@@ -98,7 +99,7 @@
 
 
 
-//---------------------------- 4 inhance object-------------------------------
+// //---------------------------- 4 inhance object-------------------------------
 
 // let names = 'Nayem Islam'
 // let email = 'nayem@gmail.com'
@@ -112,13 +113,12 @@
     
 // }
 
-
 // console.log(obj.prints())
 
 
 
 
-//------------------------------- 5 destructure arrey---------------------
+// ------------------------------- 5 destructure arrey---------------------
 
 // let arr = [1,5,6,34,97];
 
@@ -131,14 +131,14 @@
 // console.log(b)
 
 
-//----------------------------- 6 destructure object---------------------
+// //----------------------------- 6 destructure object---------------------
 
 // const obj = {
 //     names: 'Nayem Islam',
 //     email: 'nayem@gmail.com',
 // }
 
-// let names = obj.name
+// let names = obj.names
 // let email = obj.email
 // // this is es5 way
 
