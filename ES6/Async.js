@@ -119,7 +119,7 @@
 
 
 
-// const marks = 80
+// const marks = 40
 // const payment = true
 
 // function enrollment(){
@@ -172,6 +172,7 @@
 //     })
 //     return promise
 // }
+
 
 // // promises are calling here
 // enrollment()
