@@ -11,7 +11,7 @@
 
 // console.log(Math.E)
 // console.log(Math.PI)
-var n = 4.189
+// var n = 4.189
 
 // console.log(Math.abs(n)) //4.189  absolute number
 // console.log(Math.floor(n)) //4  which is after . wil not show
@@ -144,9 +144,9 @@ var n = 4.189
 // && = and oparator
 // || = or oparator
 //  ! = not oparator
-// a = 10
-// b = 30
-// c = 50
+var a = 10
+var b = 30
+var c = 50
 // if (a < b && b == c) {
 //     console.log('They are not eqaul')
 // }

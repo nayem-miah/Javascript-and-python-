@@ -11,14 +11,11 @@
 //--------------------- 1 arrey and some method------------------------------
 
 
-// var arr = [1,3,4,7,9]
+var arr = [1,3,4,7,9]
 // arr[5] = 56  // to entry new element or modify the previus element
-// arr.push[8]  // to add a element at the end
-// arr.unshift[69]  // to add a element at first
 // arr.splice(2, 0, 67) // 2 is indexing, 0 means no data remove, 67 is insert new data
 // arr[2] = undefined // index 2 will be undefined or blacked not removed
-// arr.pop // to remove last element
-// arr.shift // to remove first element
+
 // arr.reverse()  // to reverce indexing
 
 
@@ -36,7 +33,6 @@
 
 // var arr = [1,3,4,7,9,34,75]
 
-
 // for (var i = 0; i < arr.length; i++){
 //      console.log(arr[i])
 // }
@@ -47,7 +43,7 @@
 // var arr = [3,4,7,5,45,85,234,75,4,32,71]
 
 
-// var find = 458
+// var find = 5
 // var isFound = false
 // for (var i = 0; i < arr.length; i++){
 
@@ -57,7 +53,6 @@
 //           isFound = true
       
 //      } 
-
 // }
 
 // var found = false
